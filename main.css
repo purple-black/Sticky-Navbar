@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+.index-link{
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px azure;
+}
+.webname{
+    padding: 20px;
+    display: inline-flex;
+    padding-right: 500px;
+}
+.menu{
+    display: inline-flex;
+    position: fixed;
+    padding: 24.5px;
+    background-color: black;
+    padding-right: 87px;
+}
+.menu-list{
+    display: inline;
+    position: relative;
+    padding:20px;
+    margin: 5px;
+    font-size: 1rem;
+}
+.menu-link{
+    text-decoration: none;
+    color: red;
+    position: relative;
+}
+.menu-link:hover{
+    color: azure;
+    transition: 0.5s;
+    text-shadow: 4px 4px 5px rgb(30, 224, 111);
+}
+.menu-link::after{
+    color: red;
+}
+.mainsec{
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.mainsec h1{
+    
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(211, 39, 39, 0.694);
+    text-shadow: 3px 3px 3px black;
+}
+.content{
+    background-color: burlywood;
+    padding: 20px;
+}
+.content p {
+    padding: 10px;
+    position: relative;
+}
+footer{
+    background-color: black;
+    height: 40vh;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    font-size: 30px;
+    position: relative;
+}
